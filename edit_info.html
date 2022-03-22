@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <title>Edit Info</title>
+</head>
+<body>
+  <div id="resourceInfoForm">
+    <h2 id="orgName">Name</h2>
+		<input type=text placeholder="Website URL" id="webAddress" /> <br>
+		<br><br>
+    <!-- Time -->
+    <h4>Hours: </h4>
+    <div>
+      <label for="sun">Sun</label>
+      <input type="checkbox" id="sun" name="sun">
+      <label for="sun-start">Start: </label>
+      <input id="sun-start" type="time" name="sun-start">
+      <label for="sun-end">End: </label>
+      <input id="sun-end" type="time" name="sun-end">
+    </div>
+
+    <div>
+      <label for="mon">Mon</label>
+      <input type="checkbox" id="mon" name="mon">
+      <label for="mon-start">Start: </label>
+      <input id="mon-start" type="time" name="mon-start">
+      <label for="mon-end">End: </label>
+      <input id="mon-end" type="time" name="mon-end">
+    </div>
+
+    <div>
+      <label for="tue">Tue</label>
+      <input type="checkbox" id="tue" name="tue">
+      <label for="tue-start">Start: </label>
+      <input id="tue-start" type="time" name="tue-start">
+      <label for="tue-end">End: </label>
+      <input id="tue-end" type="time" name="tue-end">
+    </div>
+
+    <div>
+      <label for="wed">Wed</label>
+      <input type="checkbox" id="wed" name="wed">
+      <label for="wed-start">Start: </label>
+      <input id="wed-start" type="time" name="wed-start">
+      <label for="wed-end">End: </label>
+      <input id="wed-end" type="time" name="wed-end">
+    </div>
+
+    <div>
+      <label for="thu">Thu</label>
+      <input type="checkbox" id="thu" name="thu">
+      <label for="thu-start">Start: </label>
+      <input id="thu-start" type="time" name="thu-start">
+      <label for="thu-end">End: </label>
+      <input id="thu-end" type="time" name="thu-end">
+    </div>
+
+    <div>
+      <label for="fri">Fri</label>
+      <input type="checkbox" id="fri" name="fri">
+      <label for="fri-start">Start: </label>
+      <input id="fri-start" type="time" name="fri-start">
+      <label for="fri-end">End: </label>
+      <input id="fri-end" type="time" name="fri-end">
+    </div>
+
+    <div>
+      <label for="sat">Sat</label>
+      <input type="checkbox" id="sat" name="sat">
+      <label for="sat-start">Start: </label>
+      <input id="sat-start" type="time" name="sat-start">
+      <label for="sat-end">End: </label>
+      <input id="sat-end" type="time" name="sat-end">
+    </div>
+
+    <!-- Time ends -->
+    <br><br>
+		<input type=text placeholder="Description" id="description" /> <br>
+		<br><br>
+		<input type="submit" value="Save" id="submitBtn" onClick="save()" />
+  </div>
+</body>
+</html>
