@@ -2,19 +2,105 @@
 
 <html>
 <head>
-  <title>Charlestown Resources</title>
+    <style>
+      body {
+              font-family: 'Montserrat', sans-serif;
+              line-height: 1.6;
+              margin: 0;
+              min-height: 100vh;
+              background-color: #c9e0f8;
+            }
+      ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+          }
+      a {
+          color: #34495e;
+          }
+      .logo {
+              margin: 0;
+              font-size: 1.45em;
+            }
+
+      .main-nav {
+                position:sticky;
+                top: 0;
+                margin-top: 5px;}
+      .logo a,
+      .main-nav a {
+        padding: 10px 15px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+      }
+      .main-nav a {
+                    color: #34495e;
+                    font-size: .99em;
+                  }
+
+      .main-nav a:hover {
+                          color: #718daa;
+                        }
+      .header {
+                padding-top: .5em;
+                padding-bottom: .5em;
+                border: 1px solid #dbdada;
+                background-color: #f4f4f4;
+                position:sticky;
+                top: 0;
+              }
+
+      @media (min-width: 769px) {
+          .header, .main-nav {display: flex;}
+          .header {
+                  flex-direction: column;
+                  align-items: center;
+                  width: 100%;
+                  margin: 0 auto;
+                  }
+                }
+
+      @media (min-width: 1025px) {
+        .header {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+    }
+    div {text-align: center;}
+    div2 {background-color: antiquewhite;}
+
+    </style>
 </head>
-<div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href=login.html>Log In</a>
-</div> 
+<header class="header">
+  <h1 class="logo"><a href="#">Charlestown Resident Alliance</a></h1>
+    <ul class="main-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href=about.html>About</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href=appointment.html>Book an Appointment</a></li>
+        <li><a href="#translate">Translate</a></li>
+    </ul>
+</header>
+<div>
+<img class="marginauto" src="https://static.wixstatic.com/media/c8d302_858e0a0189f2494fae7ae5b7ab6f736a~mv2_d_4160_2340_s_2.jpg/v1/fill/w_2280,h_1222,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/20170424_182355.jpg" style="width: 1140px;height: 611px;">
+</div>
+<div>
+  <h1>Charlestown Resident Alliance</h1>
+  <p>The Charlestown Resident Alliance (CRA) is a non-profit community organization, formed by a public housing volunteer tenant group to represent all residents of Bunker Hill Development.</p>
+</div>
+<div2 id="resources">
+  <h1>Resources</h1>
+  <a href = category_housing.html><img src="housing.jpg" alt="housing.jpg"></a>
+  <a href = category_food.html><img src="food.jpg" alt="housing.jpg"></a>
+  <a href = category_3.html><img src="category3.jpg" alt="category.jpg"></a>
+  <a href = category_4.html><img src="category4.jpg" alt="category.jpg"></a>
+  <a href = category_5.html><img src="category5.jpg" alt="category.jpg"></a>
+  <a href = category_6.html><img src="category6.jpg" alt="category.jpg"></a>
+</div2>
 <body>
-  <h1>Charlestown Resources</h1>
-  <a href = category_housing.html> <h2>Housing</h2> </a>
-  <a href = category_food.html> <h2>Food</h2> </a>
-  <a href = category_3.html> <h2>Category 3</h2> </a>
-  <a href = category_4.html> <h2>Category 4</h2> </a>
-  <a href = category_5.html> <h2>Category 5</h2> </a>
-  <a href = category_6.html> <h2>Category 6</h2> </a>
-<body>
+<div>
+<a href=appointment.html><h1>Book an Appointment</h1></a>
+</div>
+</body>
 </html>
