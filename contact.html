@@ -72,11 +72,20 @@
       text-align: center;
     }
 
+    input {
+        height:20px
+    }
+
     #resources {
       background-color: antiquewhite;
       text-align: center;
     }
 
+    p {
+        font-size: 24px;
+   margin: 0px;
+   padding: 0px;
+}
     </style>
 </head>
 <body>
@@ -96,26 +105,130 @@
       // ]]></script>
       <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
 </header>
-<div id="resources" class="center">
-  <h1>I Need Help</h1>
-  <a href = category_housing.html><img src="housing.jpg" alt="housing.jpg"></a>
-  <a href = category_food.html><img src="food.jpg" alt="housing.jpg"></a>
-  <a href = category_3.html><img src="category3.jpg" alt="category.jpg"></a>
-  <a href = category_4.html><img src="category4.jpg" alt="category.jpg"></a>
-  <a href = category_5.html><img src="category5.jpg" alt="category.jpg"></a>
-  <a href = category_6.html><img src="category6.jpg" alt="category.jpg"></a>
-</div>
-<br>
-<div class="center">
-<img class="marginauto" src="https://static.wixstatic.com/media/c8d302_858e0a0189f2494fae7ae5b7ab6f736a~mv2_d_4160_2340_s_2.jpg/v1/fill/w_2280,h_1222,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/20170424_182355.jpg" style="width: 1140px;height: 611px;">
-</div>
-<div class="center">
-  <h1>Charlestown Resident Alliance</h1>
-  <p>The Charlestown Resident Alliance (CRA) is a non-profit community organization, formed by a public housing volunteer tenant group to represent all residents of Bunker Hill Development.</p>
-</div>
-<div class="center">
-<a href=book_appt.html><h1>Book an Appointment</h1></a>
-</div>
+<form action="mailto:nobody@nobody.com" method="post" enctype="text/plain">
 
+    <table width="40%" border="0" cellspacing="0" cellpadding="2">
+    
+    <tr>
+    
+    <td>
+    
+    <div align="right"><p>Name*:</p></div>
+    
+    </td>
+    
+    <td>
+    
+    <input type="text" name="name" size="40">
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td>
+    
+    <div align="right"><p>Email*:</p></div>
+    
+    </td>
+    
+    <td>
+    
+    <input type="text" name="email" size="50">
+    
+    </td>
+    
+    </tr>
+
+    <tr>
+    
+    <td>
+    
+    <div align="right"><p>Phone:</p></div>
+    
+    </td>
+    
+    <td>
+    
+    <input type="text" name="phone" size="50">
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td>
+    
+    <div align="right"><p>Address:</p></div>
+    
+    </td>
+    
+    <td>
+    
+    <input type="text" name="address" size="50">
+    
+    </td>
+    
+    </tr>
+
+    <tr>
+    
+    <td>
+    
+    <div align="right"><p>Subject:</p></div>
+    
+    </td>
+    
+    <td>
+    
+    <input type="text" name="subject" size="50">
+    
+    </td>
+    
+    </tr>
+
+    <tr>
+    
+    <td width="35%">
+    
+    <div align="right"><p>Message:</p></div>
+    
+    </td>
+    
+    <td>
+    
+    <textarea name="message" cols="25" wrap="virtual" rows="3" size="100" style=height:100px;width:400px></textarea>
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td width="35%">&nbsp;</td>
+    
+    <td width="65%">
+    
+    <input type="submit" name="Submit" value="Submit">
+    
+    <input type="reset" name="reset" value="Reset">
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td width="35%">&nbsp;</td>
+    
+    <td width="65%">&nbsp;</td>
+    
+    </tr>
+    
+    </table>
+    
+    </form>
 </body>
 </html>
