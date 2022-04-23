@@ -3,82 +3,10 @@
 
 <html>
 <head>
+  <link rel="stylesheet" href="main.css">
     <style>
-      body {
-              font-family: 'Montserrat', sans-serif;
-              line-height: 1.6;
-              margin: 0;
-              min-height: 100vh;
-              background-color: #c9e0f8;
-            }
-      ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-          }
-      a {
-          color: #34495e;
-          }
-      .logo {
-              margin: 0;
-              font-size: 1.45em;
-            }
-
-      .main-nav {
-                position:sticky;
-                top: 0;
-                margin-top: 5px;}
-      .logo a,
-      .main-nav a {
-        padding: 10px 15px;
-        text-transform: uppercase;
-        text-align: center;
-        display: block;
-      }
-      .main-nav a {
-                    color: #34495e;
-                    font-size: .99em;
-                  }
-
-      .main-nav a:hover {
-                          color: #718daa;
-                        }
-      .header {
-                padding-top: .5em;
-                padding-bottom: .5em;
-                border: 1px solid #dbdada;
-                background-color: #f4f4f4;
-                position:sticky;
-                top: 0;
-              }
-
-      @media (min-width: 769px) {
-          .header, .main-nav {display: flex;}
-          .header {
-                  flex-direction: column;
-                  align-items: center;
-                  width: 100%;
-                  margin: 0 auto;
-                  }
-                }
-
-      @media (min-width: 1025px) {
-        .header {
-          flex-direction: row;
-          justify-content: space-between;
-        }
-    }
-    .center {
-      text-align: center;
-    }
-
     input {
         height:20px
-    }
-
-    #resources {
-      background-color: antiquewhite;
-      text-align: center;
     }
 
     p {
@@ -89,22 +17,23 @@
     </style>
 </head>
 <body>
-<header class="header">
-  <h1 class="logo"><a href="#">Charlestown Resident Alliance</a></h1>
-    <ul class="main-nav">
-        <li><a href=index.html>Home</a></li>
-        <li><a href=about.html>About</a></li>
-        <li><a href=book_appt.html>Book an Appointment</a></li>
-        <li><a href=contact.html>Contact Us</a></li>
-    </ul>
-    <div id="google_translate_element"></div>
-    <script type="text/javascript">// <![CDATA[
-      function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-      }
-      // ]]></script>
-      <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
-</header>
+  <header class="header">
+    <h1 class="logo"><a href="#">Charlestown Resident Alliance</a></h1>
+      <ul class="main-nav">
+          <li><a href=index.html>Home</a></li>
+          <li><a href=about.html>About</a></li>
+          <li><a href=newsletter.html>Newsletter</a></li>
+          <li><a href=book_appt.html>Book an Appointment</a></li>
+          <li><a href=contact.html>Contact Us</a></li>
+      </ul>
+      <div id="google_translate_element"></div>
+      <script type="text/javascript">// <![CDATA[
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+        // ]]></script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+  </header>
 <form action="mailto:nobody@nobody.com" method="post" enctype="text/plain">
 
     <table width="40%" border="0" cellspacing="0" cellpadding="2">
