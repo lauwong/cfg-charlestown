@@ -11,7 +11,7 @@
 body {
         font-family: 'Montserrat';
         line-height: 1.6;
-        background-color: #c9e0f8;
+        margin: 0;
       }
 ul {
       margin: 0;
@@ -21,16 +21,19 @@ ul {
 
 a {
     color: #34495e;
+    text-decoration: none;
     }
+
 .logo {
-        margin: 0;
-        font-size: 1.45em;
+        margin-left: 15px;
+        text-align: center;
       }
 
 .main-nav {
           position:sticky;
           top: 0;
           margin-top: 5px;}
+
 .logo a,
 .main-nav a {
   padding: 10px 15px;
@@ -39,20 +42,26 @@ a {
   display: block;
 }
 .main-nav a {
-              color: #34495e;
+              color: #5F9EA0;
               font-size: .99em;
             }
 
 .main-nav a:hover {
-                    color: #718daa;
+                    color: #7AC5CD;
                   }
 .header {z-index: 1;
           padding-top: .5em;
           padding-bottom: .5em;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+          margin: 0 auto;
           border: 1px solid #dbdada;
           background-color: #f4f4f4;
-          position:sticky;
+          position: sticky;
           top: 0;
+          box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
         }
 
 @media (min-width: 769px) {
@@ -72,7 +81,8 @@ a {
   }
 }
 .center {
-text-align: center;
+  text-align: center;
+  margin: 5px;
 }
 
 #resources {
@@ -118,4 +128,8 @@ text-align: center;
   position:relative;
   left:300px;
   display: inline-block;
+}
+
+p {
+  margin: 15px auto;
 }
