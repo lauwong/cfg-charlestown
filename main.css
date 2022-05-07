@@ -31,7 +31,6 @@ a {
     }
 
 .logo {
-        margin-left: 15px;
         text-align: center;
       }
 
@@ -59,6 +58,8 @@ a {
 .header {z-index: 1;
           padding-top: .5em;
           padding-bottom: .5em;
+          padding-left: 15px;
+          padding-right: 15px;
           display: flex;
           align-items: center;
           flex-direction: column;
@@ -165,4 +166,40 @@ p {
 .icon{
   width: 100px;
   height: 100px;
+}
+
+#google_translate_element {
+  margin-right: 15px;
+}
+
+.row {
+  text-align: center;
+  margin: 0 auto;
+  width: 95vw;
+  display: flex;
+}
+
+
+.block {
+  display: inline-block;
+  width: 32%;
+  background-color: #FFA500;
+  vertical-align: text-top;
+  flex: 1;
+  margin: 5px;
+  padding-bottom: 1em;
+}
+
+.block img {
+  max-width: 100%;
+}
+
+input[type=button] {
+  background-color: #00CDCD;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
