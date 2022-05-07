@@ -194,6 +194,10 @@ p {
   max-width: 100%;
 }
 
+.block p {
+  margin: 5px;
+}
+
 input[type=button] {
   background-color: #00CDCD;
   border: none;
